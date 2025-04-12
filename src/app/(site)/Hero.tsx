@@ -17,29 +17,25 @@ const HeroSection = () => {
             </svg>
           </div>
 
-          <h1 className="text-4xl sm:text-5xl md:text-6xl font-extrabold mb-4 text-[#CFCFCF] leading-tight">
-            Ship your startup
-            <br />
-            in days,{" "}
-            <span className="bg-[#CFCFCF] text-[#2E1A05] px-2">not weeks</span>
-          </h1>
-
-          <p className="text-base text-[#CFCFCF] mb-8 max-w-2xl mx-auto lg:mx-0">
-            Tired of wasting time on setup instead of build? ShipFree is the
-            fastest way to launch your SaaS, AI tool, or web app—for free. No
-            setup headaches, no paywalls—just build and ship!
-          </p>
-
-          <Link
-            href="https://github.com/idee8/shipfree"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-flex mt-5 items-center justify-center gap-2 bg-[#FFBE1A] hover:bg-yellow-500 text-black px-8 sm:px-20 py-3 rounded-xl font-medium text-lg mb-6 duration-300 transition-colors"
-          >
-            <Zap fill="#000000" className="w-5 h-5" />
-            Get ShipFree
-          </Link>
-
+<h1 className="text-4xl sm:text-5xl md:text-6xl font-extrabold mb-4 text-[#CFCFCF] leading-tight">
+  Create viral content
+  <br />
+  in seconds with{" "}
+  <span className="bg-[#CFCFCF] text-[#2E1A05] px-2">AI</span>
+</h1>
+         
+<p className="text-base text-[#CFCFCF] mb-8 max-w-2xl mx-auto lg:mx-0">
+  Write cold emails, tweets, and content ideas instantly. Built for creators, founders, and online builders who want fast results.
+</p>
+          
+<Link
+  href="/login"
+  className="inline-flex mt-5 items-center justify-center gap-2 bg-[#FFBE1A] hover:bg-yellow-500 text-black px-8 sm:px-20 py-3 rounded-xl font-medium text-lg mb-6 duration-300 transition-colors"
+>
+  <Zap fill="#000000" className="w-5 h-5" />
+  Try AI Generator
+</Link>
+          
           <div className="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4">
             <div className="flex -space-x-3">
               {[
